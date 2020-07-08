@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Prints system information using different enviroment variables
+
 echo "Hola $USER:"
 echo "Soy $0, con PID: $$"
 echo "mi padre  es el proceso con ID $PPID"
