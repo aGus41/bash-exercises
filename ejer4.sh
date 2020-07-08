@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Analyze the files and directories of a directory passed as an argument, or of the $HOME directory if no argument is passed.
+# Prints the filenames in the given directory for which we have WRITE and EXEC permissions, prints the directory names.
+# Ask if you want to repeat the analysis
+
 if [ "$#" -eq 0 ] ; then
 	directory=$HOME
     elif [ "$#" -eq 1 ] ; then
