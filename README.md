@@ -1,1 +1,1 @@
-Bash exercises for the UC3M course 'Linux Networks Administration'
+Bash exercises for the UC3M course 'Linux Network Administration'
