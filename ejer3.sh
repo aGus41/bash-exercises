@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Guess the number game between 1 and the number passed as argument
+
 if [ "$#" -ne 1 ]; then
     echo "El script debe tener un argumento"
     exit 1
